@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fff8f2;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo {
+    height: 32px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee;
+    background: white;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  nav button.active {
+    color: #ea7a35;
+    border-bottom: 2px solid #ea7a35;
+    background: #fff2e0;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  .card {
+    background: #fffaf4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+  
+  .stars {
+    color: #ea7a35;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px 0;
+    gap: 10px;
+  }
+  .info-block {
+    flex: 1 1 0;
+    text-align: center;
+  }
+  .info-main {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .info-label {
+    font-size: 0.85rem;
+    color: #b97a56;
+  }
+  
+  .contact {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    align-items: flex-end;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: #8c4c2b;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 0;
+    transition: color 0.2s, font-weight 0.2s;
+  }
+  .action-btn.shortlist-btn.active,
+  .action-btn.shortlist-btn:active,
+  .action-btn.shortlist-btn:focus {
+    color: #fff;
+    background: #ea7a35;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .action-btn .action-icon {
+    font-size: 1.1rem;
+  }
+  .card-actions .action-btn.shortlist-btn {
+    font-weight: bold;
+  }
+  

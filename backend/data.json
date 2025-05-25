@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Aria Designs",
+      "location": "Mumbai",
+      "shortlisted": false,
+      "image": "https://via.placeholder.com/100"
+    },
+    {
+      "id": 2,
+      "name": "Nest & Nook",
+      "location": "Bangalore",
+      "shortlisted": false,
+      "image": "https://via.placeholder.com/100"
+    }
+  ]
+  

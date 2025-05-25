@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EmptyCup Listings</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <style>
+    .hidden { display: none; }
+    .shortlist-btn.shortlisted { color: green; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://emptycup3d.com/img/website/small-logo.png" alt="EmptyCup Logo" class="logo" />
+    <h1>EmptyCup</h1>
+    <div class="menu">⋮</div>
+  </header>
+
+  <nav>
+    <button class="active">📇 Contacts</button>
+    <button>🖼️ Gallery</button>
+    <button>📍 Map</button>
+    <button id="toggle-shortlisted">🔖 Shortlisted</button>
+    <button>⇅ Sort</button>
+  </nav>
+
+  <div class="container">
+    <div class="card" data-id="1">
+      <div class="card-content">
+        <div class="card-title">Epic Designs</div>
+        <div class="stars">★★★☆☆</div>
+        <div class="card-desc">Passionate team of 4 designers working out of Bangalore with an experience of 4 years.</div>
+        <div class="card-info">
+          <div class="info-block"><div class="info-main">57</div><div class="info-label">Projects</div></div>
+          <div class="info-block"><div class="info-main">8</div><div class="info-label">Years</div></div>
+          <div class="info-block"><div class="info-main">$$</div><div class="info-label">Price</div></div>
+        </div>
+        <div class="card-contacts">+91 - 984532853<br>+91 - 984532854</div>
+      </div>
+      <div class="card-actions">
+        <button class="action-btn">➡️ Details</button>
+        <button class="action-btn">🙈 Hide</button>
+        <button class="action-btn shortlist-btn">📌 Shortlist</button>
+        <button class="action-btn">📞 Call</button>
+        <button class="action-btn">❗ Report</button>
+      </div>
+    </div>
+
+    <div class="card" data-id="2">
+      <div class="card-content">
+        <div class="card-title">Studio - D3</div>
+        <div class="stars">★★★★☆</div>
+        <div class="card-desc">Passionate team of 4 designers working out of Bangalore with an experience of 4 years.</div>
+        <div class="card-info">
+          <div class="info-block"><div class="info-main">43</div><div class="info-label">Projects</div></div>
+          <div class="info-block"><div class="info-main">6</div><div class="info-label">Years</div></div>
+          <div class="info-block"><div class="info-main">$$$</div><div class="info-label">Price</div></div>
+        </div>
+        <div class="card-contacts">+91 - 984532853<br>+91 - 984532854</div>
+      </div>
+      <div class="card-actions">
+        <button class="action-btn">➡️ Details</button>
+        <button class="action-btn">🙈 Hide</button>
+        <button class="action-btn shortlist-btn">📌 Shortlist</button>
+        <button class="action-btn">📞 Call</button>
+        <button class="action-btn">❗ Report</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
